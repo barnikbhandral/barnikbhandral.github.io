@@ -1,0 +1,12 @@
+.intro{
+    height: 60vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    h1{
+        font-size: 110px;
+        span{
+            color:rgb(255, 255, 255)
+        }
+    }
+}

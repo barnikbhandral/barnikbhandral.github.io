@@ -1,0 +1,29 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.info {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.08);
+  border-radius: 35px;
+}
+.info ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0;
+}
+.info ul li {
+  padding: 5px 10px;
+  border-radius: 15px;
+}
+.info ul li:hover {
+  background-color: rgba(225, 225, 225, 0.06);
+}
+.info ul li a {
+  color: #bbc1bc;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
