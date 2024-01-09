@@ -14,16 +14,17 @@ const Header = () => {
               </a>
             </li>
             <li>
+              <a href="" onClick={() => navigate('/projects')}>Project</a>
+            </li>
+            <li>
               <a href="" onClick={() => navigate("/about")}>
                 About
               </a>
             </li>
             <li>
-              <a href="">Contact</a>
+              <a href="" onClick={() => navigate("/contact")}>Contact</a>
             </li>
-            <li>
-              <a href="">Resume</a>
-            </li>
+            
             <li>
               <a href="">Experience</a>
             </li>

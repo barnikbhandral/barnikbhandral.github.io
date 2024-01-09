@@ -1,0 +1,37 @@
+.contactHeading {
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contactIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.icon {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  a {
+    height: 80px;
+    display: inline-block;
+    width: 80px;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 50%;
+
+    &:hover {
+      color: initial;
+    }
+  }
+}
+.linkedin {
+  color: rgb(0, 119, 181);
+}
+.mail {
+  color: rgb(199, 22, 16);
+}
+.github {
+  color: rgb(43, 49, 55);
+}
